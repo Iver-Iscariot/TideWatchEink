@@ -60,7 +60,7 @@ SPIClass hspi(HSPI);
 // /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 // /\/\/\/\/\/\/\/\/\/\/ user defined variables \/\/\/\/\/\/\/\/\/\/\/\/\/
 
-const char lat[]      =  "59.887540";
+const char lat[]      =  "59.887540";        // Hvor du er (tror kartværket gir deg nærmeste datapunkt)
 const char lon[]      =  "10.714747";
 
 const byte nDays      =  3;                  // Antall dager med data du laster ned når du trykker synk
